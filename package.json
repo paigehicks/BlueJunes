@@ -8,10 +8,13 @@
     "serve": "parcel index.html",
     "watch:server": "nodemon --watch ./server -e js ./server/index.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
@@ -32,3 +35,4 @@
     "paypal-rest-sdk": "^1.8.1"
   }
 }
+
