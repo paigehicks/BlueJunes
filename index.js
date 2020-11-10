@@ -22,6 +22,7 @@ function render(st = state.Home) {
     ${Footer()}
   `};
 
+
   // functions for cart
 
 if (document.readyState == 'loading') {
