@@ -5,7 +5,7 @@
   "main": "index.js",
   "engines": {
     "node": "14.8.0"
-  }
+  },
   "scripts": {
     "parcel-build": "parcel build index.html && cp _redirects ./dist/",
     "serve": "parcel index.html",
