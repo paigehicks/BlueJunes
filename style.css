@@ -6,11 +6,6 @@
   --menu-speed: 0.75s;
 }
 
-@media (min-width: 550px){
-  nav > .fa-bars {
-    display: none;
-  }
-
 * {
   margin: 0;
   padding: 0;
