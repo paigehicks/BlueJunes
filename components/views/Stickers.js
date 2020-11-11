@@ -1,5 +1,6 @@
 export default () =>`
-<section class="shop">
+<section class="store">
+<div class="store-body">
 <div class="container content-section">
     <h2 class="section-header">Shop</h2>
     <div class="shop-items">
@@ -34,8 +35,8 @@ export default () =>`
 </div>
 
 <section class="container content-section">
-    <h2 class="section-header">CART</h2>
-    <img class="cart" src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/cart.png?raw=true">
+    <h2 class="section-header">CART
+    <img class="cart" src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/cart.png?raw=true"></h2>
     <div class="cart-row">
         <span class="cart-item cart-header cart-column">ITEM</span>
         <span class="cart-price cart-header cart-column">PRICE</span>
@@ -72,5 +73,6 @@ export default () =>`
     <form action="/pay" method="post">
     <input class="btn btn-primary btn-purchase" type="submit" value="Buy">
 </section>
+</div>
 </section>
 `;

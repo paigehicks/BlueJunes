@@ -1,7 +1,7 @@
 /*-----CORE STYLES-----*/
 :root {
-  --primary-color: rgba(13, 110, 139, 0.75);
-  --overlay-color: rgba(24, 39, 51, 0.85);
+  --primary-color: rgba(23, 104, 128, 0.762);
+  --overlay-color: rgba(49, 93, 129, 0.584);
   --menu-speed: 0.75s;
 }
 
@@ -12,6 +12,10 @@
   font-family: "Bree Serif", serif;
   line-height: 1.4;
 }
+
+/*==============*/
+/*=====Home=====*/
+/*==============*/
 
 .container {
   max-width: 960px;
@@ -29,7 +33,7 @@
 
 .homepage:before {
   content: "";
-  background: url(https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Tiger.jpg?raw=true) no-repeat center center/cover;
+  background: url(https://github.com/paigehicks/BlueJunes/blob/master/pictures/background.jpg?raw=true) no-repeat center center/cover;
   position: absolute;
   top: 0;
   left: 0;
@@ -49,6 +53,7 @@
 
 .homepage h1 {
   background-color: white;
+  opacity: 0.8;
   color: black;
   font-size: 5vw; /* Responsive font size */
   font-weight: bold;
@@ -233,11 +238,14 @@
   transition: color 0.4s ease;
 }
 
+/*===============*/
 /*=====About=====*/
+/*===============*/
 
 .about {
   margin: 0;
   padding: 0;
+  background: url(https://github.com/paigehicks/BlueJunes/blob/master/pictures/background.jpg?raw=true) no-repeat center center/cover;
   box-sizing: border-box;
   background-color: #eee;
   min-height: 100vh;
@@ -427,7 +435,153 @@
   cursor: pointer;
 }
 
+/*====================*/
+/*=====Commissions====*/
+/*====================*/
+
+.commissions {
+  margin: 0;
+  padding: 0;
+  background: url(https://github.com/paigehicks/BlueJunes/blob/master/pictures/background.jpg?raw=true) no-repeat center center/cover;
+  box-sizing: border-box;
+  background-color: #eee;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.comm-body {
+  background-color: #fdfdfd;
+  position: relative;
+  width: 80%;
+  height: 800px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.comm-body span {
+    display: block;
+    margin-left: 340px;
+    margin-bottom: 30px;
+    width: 600px;
+    height: 3px;
+    background: var(--primary-color);
+}
+
+.commissionsHeader {
+  text-align: center;
+  font-size: 50px;
+}
+.comm {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  text-align: center;
+  flex: 50%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+.inner-box {
+  width: 500px;
+  background-color: #fdfdfd;
+  box-shadow: 0 0 20px 0 #999;
+  top: 550px;
+  left: 640px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+/*-----form-----*/
+form {
+  margin: 35px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding: 10px;
+}
+
+.submit {
+  box-shadow: inset -1px -3px 10px 0px #9fb4f2;
+  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+  background-color: #7892c2;
+  border-radius: 6px;
+  border: 2px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-shadow: -2px 2px 0px #283966;
+}
+
+.submit:hover {
+  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+  background-color: #476e9e;
+}
+
+.submit:active {
+  position: relative;
+  top: 1px;
+}
+
+/*===============*/
 /*=====Store=====*/
+/*===============*/
+
+.store {
+  margin: 0;
+  padding: 0;
+  background: url(https://github.com/paigehicks/BlueJunes/blob/master/pictures/background.jpg?raw=true) no-repeat center center/cover;
+  box-sizing: border-box;
+  background-color: #fdfdfd;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.store-body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-size: 30%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 50px 0;
+}
+
+.section-header {
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 60px;
+}
 
 .content-section {
   margin: 1em;
@@ -442,12 +596,6 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5em;
-}
-.section-header {
-  font-weight: normal;
-  color: #333;
-  text-align: center;
-  font-size: 2.5em;
 }
 
 .btn {
@@ -495,39 +643,6 @@
 
 .btn-primary:hover {
   background-color: #2D9CDB;
-}
-
-.tour-row {
-  border-bottom: 1px solid black;
-  padding-bottom: 1em;
-  margin-bottom: 1em;
-}
-
-.tour-row:last-child {
-  border: none;
-}
-
-.tour-item {
-  display: inline-block;
-  padding-right: .5em;
-}
-
-.tour-date {
-  color: #555;
-  width: 11%;
-  font-weight: bold;
-}
-
-.tour-city {
-  width: 24%;
-}
-
-.tour-arena {
-  width: 42%;
-}
-
-.tour-btn {
-  max-width: 19%;
 }
 
 .shop-item {
@@ -666,89 +781,3 @@
   margin: 40px auto 80px auto;
   font-size: 1.75em;
 }
-/*=====Commissions=====*/
-
-.mainBody {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #f1f1f1;
-}
-.commissionsHeader {
-  text-align: center;
-  font-size: 50px;
-}
-.comm {
-  text-align: center;
-}
-
-.list {
-  list-style-type: none;
-}
-
-.commissions {
-  background-size: 55%;
-  background-color: #fdfdfd;
-  overflow: hidden;
-  padding: 50px 0;
-}
-.inner-box {
-  width: 500px;
-  background-color: #fdfdfd;
-  box-shadow: 0 0 20px 0 #999;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-/*-----form-----*/
-form {
-  margin: 35px;
-}
-
-.input-field {
-  width: 400px;
-  height: 40px;
-  margin-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border: 1px solid #777;
-  border-radius: 14px;
-  outline: none;
-}
-
-.textarea-field {
-  height: 150px;
-  padding: 10px;
-}
-
-.submit {
-  box-shadow: inset -1px -3px 10px 0px #9fb4f2;
-  background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-  background-color: #7892c2;
-  border-radius: 6px;
-  border: 2px solid #4e6096;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-family: Verdana;
-  font-size: 15px;
-  font-weight: bold;
-  font-style: italic;
-  padding: 8px 16px;
-  text-decoration: none;
-  text-shadow: -2px 2px 0px #283966;
-}
-
-.submit:hover {
-  background: linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-  background-color: #476e9e;
-}
-
-.submit:active {
-  position: relative;
-  top: 1px;
-}
-
