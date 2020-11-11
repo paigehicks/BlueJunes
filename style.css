@@ -569,7 +569,7 @@ form {
 
 .store-body {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   background-size: 30%;
   background-color: #fdfdfd;
   overflow: hidden;
@@ -776,8 +776,10 @@ form {
   font-size: 1.1em;
 }
 
-.btn-purchase {
-  display: block;
-  margin: 40px auto 80px auto;
-  font-size: 1.75em;
+.paypal-btn {
+  position: absolute;
+  bottom: -108%;
+  right: 20%;
+  width: 250px;
+  height: 75px;
 }
