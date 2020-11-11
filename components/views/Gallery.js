@@ -1,5 +1,5 @@
 export default () =>`
-<div class="gallery">
+<section class="gallery">
 <h1 class="galleryHeading">Gallery</h1>
 <div class="galleryContainer">
   <div class="img-box">
@@ -75,5 +75,5 @@ export default () =>`
   </div>
 </div>
 </div>
-</div>
+</section>
 `;

@@ -1,5 +1,6 @@
 export default () =>`
-<section class="container content-section">
+<section class="shop">
+<div class="container content-section">
     <h2 class="section-header">Shop</h2>
     <div class="shop-items">
 
@@ -30,7 +31,7 @@ export default () =>`
             </div>
         </div>
     </div>
-</section>
+</div>
 
 <section class="container content-section">
     <h2 class="section-header">CART</h2>
@@ -70,5 +71,6 @@ export default () =>`
     </div>
     <form action="/pay" method="post">
     <input class="btn btn-primary btn-purchase" type="submit" value="Buy">
+</section>
 </section>
 `;

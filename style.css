@@ -20,14 +20,14 @@
   padding: 0 3rem;
 }
 
-.showcase {
+.homepage {
   background: var(--primary-color);
   color: #fff;
   height: 100vh;
   position: relative;
 }
 
-.showcase:before {
+.homepage:before {
   content: "";
   background: url(https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Tiger.jpg?raw=true) no-repeat center center/cover;
   position: absolute;
@@ -38,7 +38,7 @@
   z-index: -1;
 }
 
-.showcase .showcase-inner {
+.homepage .showcase-inner {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,13 +47,23 @@
   height: 100%;
 }
 
-.showcase h1 {
-  font-size: 4rem;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
- 1px 1px 0 #000;
+.homepage h1 {
+  background-color: white;
+  color: black;
+  font-size: 5vw; /* Responsive font size */
+  font-weight: bold;
+  margin: 0 auto; /* Center the text container */
+  padding: 10px;
+  width: 50%;
+  text-align: center; /* Center text */
+  position: absolute; /* Position text */
+  top: 30%; /* Position text in the middle */
+  left: 50%; /* Position text in the middle */
+  transform: translate(-50%, -50%); /* Position text in the middle */
+  mix-blend-mode: screen; /* This makes the cutout text possible */
 }
 
-.showcase p {
+.homepage p {
   font-size: 1.3rem;
 }
 
@@ -229,15 +239,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f1f1f1;
-}
-
-.abbody {
+  background-color: #eee;
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(https://github.com/paigehicks/capstoneProject/blob/master/Pictures/jenny.png?raw=true) no-repeat left;
+}
+
+.abbody {
   background-size: 30%;
   background-color: #fdfdfd;
   overflow: hidden;
@@ -245,10 +254,11 @@
 }
 
 .innerContainer {
-  width: 45%;
-  float: right;
-  background-color: #fdfdfd;
-  padding: 20px;
+  position: relative;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .innerContainer h1 {
@@ -258,26 +268,76 @@
 }
 
 .text {
-  font-size: 13px;
-  color: #545454;
-  line-height: 30px;
-  text-align: justify;
-  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.7);
 }
 
-.socialMedia {
-  display: flex;
-  justify-content: space-between;
+.left-side {
+  position: relative;
+  width: 300px;
 }
-.socialMedia .a {
-  margin: 2px;
+.left-side img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
 }
-.socialMedia .a:link .a:visited {
-  background-color: #000;
+.right-side {
+  position: relative;
+  width: 300px;
+  margin-top: 75px;
+  margin-left: 30px;
+}
+.right-side h3 {
+  position: relative;
+  margin-top: -100px;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.3);
+  text-transform: uppercase;
+}
+.right-side .name {
+  width: 400px;
+  height: 50px;
+  background: #fff;
+  box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  margin-left: -100px;
+  margin-bottom: 30px;
+}
+.right-side .name h1 {
+  padding: 10px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+.right-side span {
+  display: block;
+  margin-bottom: 20px;
+  width: 80px;
+  height: 3px;
+  background: var(--primary-color);
+}
+.icons {
+  position: relative;
+  margin-top: 30px;
+}
+.icons .fab {
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  background: #eee;
+  border-radius: 50%;
+  text-align: center;
   color: #000;
-  padding: 14px 25px;
-  text-decoration: none;
-  display: inline-block;
+  font-size: 20px;
+}
+.icons .fab:hover {
+  background: #000;
+  color: #eee;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 /*=====Gallery=====*/
@@ -622,15 +682,7 @@
 .comm {
   text-align: center;
 }
-.flex-container {
-  padding: 20px;
-  text-align: center;
-}
-.flex-text {
-  width: 50%;
-  float: left;
-  padding: 10px;
-}
+
 .list {
   list-style-type: none;
 }
@@ -699,3 +751,4 @@ form {
   position: relative;
   top: 1px;
 }
+
