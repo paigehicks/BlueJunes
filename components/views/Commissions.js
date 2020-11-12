@@ -23,14 +23,20 @@ export default () =>`
       </div>
   </div>
   <div class="inner-box">
-  <form action="https://formspree.io/f/{form_id}" method="post">
+  <form
+  action="https://formspree.io/f/maylydlk"
+  method="POST">
     <p class="comm"> Inquires for commission pricing or specific questions can be sent to
         jennifermeda@live.com</p>
-      <input type="text" class="input-field" placeholder="your name">
-      <input type="email" class="input-field" placeholder="your email">
-      <input type="date" class="input-field" placeholder="Due by date">
-      <textarea type="text" class="input-field" placeholder="your message"></textarea>
-      <button type="button" id="my-form-button">Let me know!</button>
+      <br><br>
+      <input type="text" name="name" placeholder="your name">
+      <br><br>
+      <input type="email" name="_replyto" placeholder="email!">
+      <br><br>
+      <input type="date" name="input-field" placeholder="Due by date">
+      <br><br>
+      <input type="text" name="input-field" placeholder="your message">
+      <input type="submit"  value="submit" id="my-form-button">
       <p id="my-form-status"></p>
     </form>
   </div>

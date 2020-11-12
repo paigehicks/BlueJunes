@@ -3,9 +3,8 @@ export default () =>`
 <div class="container showcase-inner">
 <h1>Blue Junes' Art</h1>
 <div>
-  <p> skdjfhlkjshdfkkljh<br>dsfkjghkjdshfg<br>kjdfhglkjdshfgkj</p>
-  <a href="#" class="btn">Read More</a>
+  <p> "self-taught artist excited to share her love with the world"</p>
+  <a href="./Gallery" class="btn">View Portfolio</a>
 </div>
 </section>
 `;
-

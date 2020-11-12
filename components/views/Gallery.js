@@ -6,10 +6,26 @@ export default () =>`
     <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Range.png?raw=true'>
     <div class="transparent-box">
     <div class="caption">
-      <p class="opacity-low">Range</p>
+      <p class="opacity-low">Tiger Mountains</p>
     </div>
     </div>
   </div>
+  <div class="img-box">
+  <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/sadBaby.png?raw=true">
+  <div class="transparent-box">
+    <div class="caption">
+      <p class="opacity-low">Saddest Little Baby</p>
+    </div>
+  </div>
+</div>
+<div class="img-box">
+  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Tiger.jpg?raw=true'>
+  <div class="transparent-box">
+    <div class="caption">
+      <p class="opacity-low">The Watcher</p>
+    </div>
+  </div>
+</div>
 <div class="img-box">
   <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/Eggboitrips.png?raw=true'>
   <div class="transparent-box">
@@ -27,18 +43,26 @@ export default () =>`
   </div>
 </div>
 <div class="img-box">
-  <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/juice.png?raw=true">
+  <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/space2.png?raw=true">
   <div class="transparent-box">
     <div class="caption">
-      <p class="opacity-low">Take a Sip</p>
+      <p class="opacity-low">Twin Dippers</p>
     </div>
   </div>
 </div>
 <div class="img-box">
-  <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/sadBaby.png?raw=true">
+  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/clown.png?raw=true'>
   <div class="transparent-box">
     <div class="caption">
-      <p class="opacity-low">Saddest Little Baby</p>
+      <p class="opacity-low">My Shadow, Myself and I</p>
+    </div>
+  </div>
+</div>
+<div class="img-box">
+  <img src="https://github.com/paigehicks/capstoneProject/blob/master/Pictures/juice.png?raw=true">
+  <div class="transparent-box">
+    <div class="caption">
+      <p class="opacity-low">Take a Sip</p>
     </div>
   </div>
 </div>
@@ -59,18 +83,18 @@ export default () =>`
   </div>
 </div>
 <div class="img-box">
-  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/clown.png?raw=true'>
-  <div class="transparent-box">
-    <div class="caption">
-      <p class="opacity-low">Clown</p>
-    </div>
-  </div>
-</div>
-<div class="img-box">
   <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/creature.png?raw=true'>
   <div class="transparent-box">
     <div class="caption">
       <p class="opacity-low">Creature of the Woods</p>
+    </div>
+  </div>
+</div>
+<div class="img-box">
+  <img src='https://github.com/paigehicks/capstoneProject/blob/master/Pictures/space.png?raw=true'>
+  <div class="transparent-box">
+    <div class="caption">
+      <p class="opacity-low">Space Candy</p>
     </div>
   </div>
 </div>

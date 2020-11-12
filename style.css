@@ -41,6 +41,9 @@
   height: 100%;
   z-index: -1;
 }
+.lil {
+  font-style: italic;
+}
 
 .homepage .showcase-inner {
   display: flex;
@@ -85,6 +88,12 @@
 
 .btn:hover {
   opacity: 0.7;
+}
+
+.jennyD {
+  width: 100%;
+  height: 100%;
+  border-radius: 1%;
 }
 
 .footer {
@@ -497,7 +506,7 @@
   background-color: #fdfdfd;
   box-shadow: 0 0 20px 0 #999;
   top: 550px;
-  left: 640px;
+  left: 570px;
   transform: translate(-50%, -50%);
   position: absolute;
 }
@@ -777,9 +786,6 @@ form {
 }
 
 .paypal-btn {
-  position: absolute;
-  bottom: -108%;
-  right: 20%;
-  width: 250px;
-  height: 75px;
+  float: right;
+  bottom: 0;
 }
